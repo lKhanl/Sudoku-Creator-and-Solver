@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public interface Sudoku {
-    static void main(String[] args) {
+public class Sudoku {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[][] puzzle;
         while (true) {
