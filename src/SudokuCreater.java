@@ -64,14 +64,15 @@ public class SudokuCreater extends Controller {
                 numberOfHints++;
 
             }
-            if (numberOfHints == 23 && (isSolvable(puzzle).isEmpty())) {
+            if (numberOfHints == 18 && (isSolvable(puzzle).isEmpty())) {
+
                 numberOfHints = 0;
                 fillTableWithZero(puzzle);
 
 
             }
 
-        } while (numberOfHints != 23);
+        } while (numberOfHints != 18);
 
 
         return puzzle;
