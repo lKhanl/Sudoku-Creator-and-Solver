@@ -23,6 +23,7 @@ public class Sudoku {
                         solver.displaySudoku();
                     } else if ((nextOption.toLowerCase().equals("stop"))) {
                         System.out.println("Program was stopped...");
+                        System.exit(0);
                     }
                 }
                 case "stop" -> {
